@@ -5,7 +5,7 @@ import java.util.Date;
 public class Students {
 
 	private String sid;
-	private String sName;
+	private String sname;
 	private String gender;
 	private Date birthday;
 	private String address;
@@ -13,10 +13,10 @@ public class Students {
 	public Students()
 	{}
 	
-	public Students(String sid, String sName, String gender, Date birthday,
+	public Students(String sid, String sname, String gender, Date birthday,
 			String address) {
 		this.sid = sid;
-		this.sName = sName;
+		this.sname = sname;
 		this.gender = gender;
 		this.birthday = birthday;
 		this.address = address;
@@ -28,11 +28,11 @@ public class Students {
 	public void setSid(String sid) {
 		this.sid = sid;
 	}
-	public String getsName() {
-		return sName;
+	public String getSname() {
+		return sname;
 	}
-	public void setsName(String sName) {
-		this.sName = sName;
+	public void setSname(String sname) {
+		this.sname = sname;
 	}
 	public String getGender() {
 		return gender;
@@ -55,7 +55,7 @@ public class Students {
 
 	@Override
 	public String toString() {
-		return "Students [sid=" + sid + ", sName=" + sName + ", gender="
+		return "Students [sid=" + sid + ", sname=" + sname + ", gender="
 				+ gender + ", birthday=" + birthday + ", address=" + address
 				+ "]";
 	}

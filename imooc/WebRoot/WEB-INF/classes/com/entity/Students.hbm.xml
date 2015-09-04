@@ -15,7 +15,7 @@
 		<id name="sid" type="java.lang.String" length="8">
             <generator class="assigned"/>
         </id>
-        <property name="sName" type="java.lang.String"/>
+        <property name="sname" type="java.lang.String"/>
         <property name="gender" type="java.lang.String"/>
         <property name="birthday" type="date"/>
         <property name="address" type="java.lang.String"/>
